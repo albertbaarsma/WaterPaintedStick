@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - Door
+  - LevelLoader
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - background
+  - player
+  - interactable
+  - enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: background-10
+    uniqueID: 3653135037
+    locked: 0
+  - name: background
+    uniqueID: 3984074763
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: front
+    uniqueID: 2784895743
+    locked: 0

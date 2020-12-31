@@ -1,0 +1,956 @@
+fileFormatVersion: 2
+guid: ae4eab1d15a184749b16233389f35a94
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3688109661588952352
+    second: cat en wolken_0
+  - first:
+      213: -8355819920042624447
+    second: cat en wolken_1
+  - first:
+      213: 2220315276986428249
+    second: cat en wolken_2
+  - first:
+      213: 896878931043602980
+    second: cat en wolken_3
+  - first:
+      213: 8982712775193341713
+    second: cat en wolken_4
+  - first:
+      213: -2483524837123408815
+    second: cat en wolken_5
+  - first:
+      213: -4072176590164089123
+    second: cat en wolken_6
+  - first:
+      213: -8127870688924113869
+    second: cat en wolken_7
+  - first:
+      213: 9119159635296281335
+    second: cat en wolken_8
+  - first:
+      213: -7804646679503690005
+    second: cat en wolken_9
+  - first:
+      213: 8109203881201021562
+    second: cat en wolken_10
+  - first:
+      213: -1824236205495117446
+    second: cat en wolken_11
+  - first:
+      213: -5757961793085542400
+    second: cat en wolken_12
+  - first:
+      213: -64058753567692781
+    second: cat en wolken_13
+  - first:
+      213: 5650065248055091803
+    second: cat en wolken_14
+  - first:
+      213: -832627151703497399
+    second: cat en wolken_15
+  - first:
+      213: 4149517921576831241
+    second: cat en wolken_16
+  - first:
+      213: -2986410278500105615
+    second: cat en wolken_17
+  - first:
+      213: -4470689707800953874
+    second: cat en wolken_18
+  - first:
+      213: -6926601342589856470
+    second: cat en wolken_19
+  - first:
+      213: 306605486603667
+    second: cat en wolken_20
+  - first:
+      213: 8497209854052025737
+    second: cat en wolken_21
+  - first:
+      213: 8654261158560531678
+    second: cat en wolken_22
+  - first:
+      213: 6071519544216576872
+    second: cat en wolken_23
+  - first:
+      213: 1333264679393663324
+    second: cat en wolken_24
+  - first:
+      213: 6937831940399153157
+    second: cat en wolken_25
+  - first:
+      213: -2440186899878948047
+    second: cat en wolken_26
+  - first:
+      213: -8433976227042578853
+    second: cat en wolken_27
+  - first:
+      213: 6437081584693319331
+    second: cat en wolken_28
+  - first:
+      213: -6465618766612866815
+    second: cat en wolken_29
+  - first:
+      213: -3347725354891673713
+    second: cat en wolken_30
+  - first:
+      213: -8416688113063993964
+    second: cat en wolken_31
+  - first:
+      213: 8900555696669334846
+    second: cat en wolken_32
+  - first:
+      213: -645579148870807525
+    second: cat en wolken_33
+  - first:
+      213: 8178188469346579242
+    second: cat en wolken_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cat en wolken_0
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 618
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02512bf523cce2330800000000000000
+      internalID: 3688109661588952352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_1
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 617
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14af9b2cd0a2a0c80800000000000000
+      internalID: -8355819920042624447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_2
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 588
+        width: 28
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b262e0bf420de10800000000000000
+      internalID: 2220315276986428249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 517
+        width: 86
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 422d26bc2aa527c00800000000000000
+      internalID: 896878931043602980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 525
+        width: 102
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f23c43da109ac70800000000000000
+      internalID: 8982712775193341713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_5
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 578
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15c3664a15fb88dd0800000000000000
+      internalID: -2483524837123408815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_6
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 539
+        width: 48
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd6ab9077f8bc77c0800000000000000
+      internalID: -4072176590164089123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 577
+        width: 31
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3346e56fba0043f80800000000000000
+      internalID: -8127870688924113869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_8
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 556
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f26ae77f53cd8e70800000000000000
+      internalID: 9119159635296281335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_9
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 537
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be620ce123350b390800000000000000
+      internalID: -7804646679503690005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_10
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 547
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72b43e27fda98070800000000000000
+      internalID: 8109203881201021562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 538
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a799e0916d20fa6e0800000000000000
+      internalID: -1824236205495117446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_12
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 535
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0007dd4914c9710b0800000000000000
+      internalID: -5757961793085542400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_13
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 446
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318e7dc27ea6c1ff0800000000000000
+      internalID: -64058753567692781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_14
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 448
+        width: 25
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b526a146860196e40800000000000000
+      internalID: 5650065248055091803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_15
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 452
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9452e58540ae174f0800000000000000
+      internalID: -832627151703497399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_16
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 459
+        width: 20
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90944b8809c069930800000000000000
+      internalID: 4149517921576831241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_17
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 460
+        width: 14
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1720d64aca32e86d0800000000000000
+      internalID: -2986410278500105615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_18
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 462
+        width: 16
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb7781c56be4f1c0800000000000000
+      internalID: -4470689707800953874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_19
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 463
+        width: 25
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25103217c4cfdf90800000000000000
+      internalID: -6926601342589856470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_20
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 467
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d7d172bd6110000800000000000000
+      internalID: 306605486603667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_21
+      rect:
+        serializedVersion: 2
+        x: 371
+        y: 466
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98548b497572ce570800000000000000
+      internalID: 8497209854052025737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_22
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 471
+        width: 20
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed40675ebac1a1870800000000000000
+      internalID: 8654261158560531678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_23
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 462
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863eedf6bde524450800000000000000
+      internalID: 6071519544216576872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_24
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 466
+        width: 56
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5995d67925b08210800000000000000
+      internalID: 1333264679393663324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_25
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 442
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 500c9de3461284060800000000000000
+      internalID: 6937831940399153157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_26
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 354
+        width: 52
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133572771f6b22ed0800000000000000
+      internalID: -2440186899878948047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_27
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 280
+        width: 251
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5ea90f7e4f74fa80800000000000000
+      internalID: -8433976227042578853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_28
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 300
+        width: 156
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a69add989b155950800000000000000
+      internalID: 6437081584693319331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_29
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 177
+        width: 74
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109d0f2fcf18546a0800000000000000
+      internalID: -6465618766612866815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_30
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 138
+        width: 217
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ffc18d68d7a81d0800000000000000
+      internalID: -3347725354891673713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_31
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 215
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d519331cae13b80800000000000000
+      internalID: -8416688113063993964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 95
+        width: 167
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3d1e8bbf30258b70800000000000000
+      internalID: 8900555696669334846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_33
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 124
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10182d3f217a07f0800000000000000
+      internalID: -645579148870807525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cat en wolken_34
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 97
+        width: 99
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a23399d3513ce7170800000000000000
+      internalID: 8178188469346579242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
