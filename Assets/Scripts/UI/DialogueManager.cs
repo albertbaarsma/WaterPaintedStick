@@ -6,7 +6,6 @@ using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
-
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
@@ -16,14 +15,19 @@ public class DialogueManager : MonoBehaviour
     // queue of type string
     private Queue<string> sentences;
 
+    public GameObject player;
+    PlayerMovement2 playerMovement2;
+
     // Start is called before the first frame update
     void Start()
     {
         sentences = new Queue<string>();
+        playerMovement2 = player.GetComponent<PlayerMovement2>();
     }
 
     public void StartDialogue (Dialogue dialogue)
     {
+        playerMovement2.someoneIsTalking = true;
         animator.SetBool("IsOpen", true);
 
         nameText.text = dialogue.name;
@@ -65,5 +69,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        playerMovement2.someoneIsTalking = false;
+        Debug.Log("is set to false");
     }
 }
