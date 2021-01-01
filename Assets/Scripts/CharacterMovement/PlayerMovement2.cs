@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement2 : MonoBehaviour
 {
     public CharacterController2D controller;
-    public Animator animator;
+    Animator animator;
 
     public float runSpeed = 40f;
     public bool someoneIsTalking = false;
@@ -13,13 +13,16 @@ public class PlayerMovement2 : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
-    
+
+    private void Start()
+    {
+        animator = gameObject.GetComponent<Animator>();
+    }
+
 
     // Update is called once per frame
     void Update()
     {
-        
-
         if (someoneIsTalking == true)
         {
             animator.SetBool("IsJumping", false);
@@ -55,11 +58,11 @@ public class PlayerMovement2 : MonoBehaviour
 
     public void OnLanding()
     {
-            animator.SetBool("IsJumping", false);
+        animator.SetBool("IsJumping", false);
     }
 
     public void OnCrouching(bool isCrouching)
     {
-            animator.SetBool("IsCrouching", isCrouching);
+        animator.SetBool("IsCrouching", isCrouching);
     }
 }

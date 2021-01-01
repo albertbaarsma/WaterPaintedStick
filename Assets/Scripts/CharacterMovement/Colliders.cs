@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Colliders : MonoBehaviour
 {
-    public bool playerTouchesDoor;
+    public bool playerTouchesDoor = false;
 
-    public TalkEvents talkEvents;
+    // public TalkEvents talkEvents;
 
     PlayerMovement2 playerMovement2;
 
@@ -19,6 +19,7 @@ public class Colliders : MonoBehaviour
     {
         if (collision.tag == "Door")
         {
+            Debug.Log("player touches door");
             playerTouchesDoor = true;
         }
     }
@@ -30,11 +31,10 @@ public class Colliders : MonoBehaviour
             playerTouchesDoor = false;
         }
 
-        if (collision.tag == "Event")
+      /*  if (collision.tag == "Event")
         {
             playerMovement2.enabled = false;
             talkEvents.CatScene2();
-            
-        }
+        }*/
     }
 }
