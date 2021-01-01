@@ -5,6 +5,8 @@ using UnityEngine;
 public class Colliders : MonoBehaviour
 {
     public bool playerTouchesDoor = false;
+    public Animator transition;
+    public float transitionTime = 1f;
 
     // public TalkEvents talkEvents;
 
@@ -22,6 +24,13 @@ public class Colliders : MonoBehaviour
             Debug.Log("player touches door");
             playerTouchesDoor = true;
         }
+        if (collision.tag == "Event")
+        {
+            Fadeout();
+            collision.GetComponent<DialogueTrigger>().TriggerDialogue();
+            Destroy(collision);
+
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -31,10 +40,24 @@ public class Colliders : MonoBehaviour
             playerTouchesDoor = false;
         }
 
-      /*  if (collision.tag == "Event")
-        {
-            playerMovement2.enabled = false;
-            talkEvents.CatScene2();
-        }*/
+        
+    }
+
+    public void Fadeout()
+    {
+        StartCoroutine(Fade());
+    }
+
+    IEnumerator Fade()
+    {
+        // Play animation
+        transition.SetBool("Event", true);
+        transition.SetTrigger("Start");
+
+        // wait
+        yield return new WaitForSeconds(transitionTime);
+
+        playerMovement2.someoneIsTalking = true;
+        playerMovement2.TeleportCharacter(1.57f, -2.16f);
     }
 }

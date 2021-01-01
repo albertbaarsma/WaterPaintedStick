@@ -938,7 +938,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTouchesDoor: 0
-  talkEvents: {fileID: 0}
+  transition: {fileID: 3934326018290085673, guid: e7a52012df394a94dbba6ac7e86e4d8d,
+    type: 3}
+  transitionTime: 1
 --- !u!1 &3864925596045252897
 GameObject:
   m_ObjectHideFlags: 0

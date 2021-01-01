@@ -25,8 +25,10 @@ public class PlayerMovement2 : MonoBehaviour
     {
         if (someoneIsTalking == true)
         {
+
             animator.SetBool("IsJumping", false);
-            animator.SetBool("Crouch", false);
+            animator.SetBool("IsCrouching", false);
+            animator.SetFloat("Speed", 0);
         } else
         {
             horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
@@ -51,9 +53,12 @@ public class PlayerMovement2 : MonoBehaviour
 
     private void FixedUpdate()
     {
-        // move character
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
-        jump = false;
+        if (someoneIsTalking == false)
+        {
+            // move character
+            controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        }
+            jump = false;
     }
 
     public void OnLanding()
@@ -64,5 +69,10 @@ public class PlayerMovement2 : MonoBehaviour
     public void OnCrouching(bool isCrouching)
     {
         animator.SetBool("IsCrouching", isCrouching);
+    }
+
+    public void TeleportCharacter(float teleportPosX, float teleportPosY)
+    {
+        gameObject.transform.position = new Vector3(teleportPosX, teleportPosY, teleportPosX);
     }
 }

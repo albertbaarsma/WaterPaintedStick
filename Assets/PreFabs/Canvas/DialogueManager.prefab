@@ -43,6 +43,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22acc37b47d77de4bb4e060f4c1ebc0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: {fileID: 0}
-  dialogueText: {fileID: 0}
-  animator: {fileID: 0}
+  nameText: {fileID: 172769406726445765, guid: 1e3b279862d80584382ad48b6411ea36, type: 3}
+  dialogueText: {fileID: 7800624421114159591, guid: e98710a7bb13a514fb4153c51099851b,
+    type: 3}
+  animator: {fileID: 8397616098474641427, guid: 2be187471a498a841aa43753756f9274,
+    type: 3}
+  player: {fileID: 2584035346381366468, guid: bf4a4bd6865d543468e443b517f4332d, type: 3}
