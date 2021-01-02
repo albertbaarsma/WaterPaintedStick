@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Colliders : MonoBehaviour
 {
-    public bool playerTouchesDoor;
-    
+    public bool playerTouchesDoor = false;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Door")
         {
+            Debug.Log("player touches door");
             playerTouchesDoor = true;
         }
     }
@@ -21,4 +22,6 @@ public class Colliders : MonoBehaviour
             playerTouchesDoor = false;
         }
     }
+
+    
 }

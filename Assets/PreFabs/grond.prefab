@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3324921119332433731}
   - component: {fileID: 3324921119332433730}
   - component: {fileID: 3324921119332433729}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: grond
   m_TagString: Untagged
   m_Icon: {fileID: 0}

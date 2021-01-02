@@ -14,10 +14,12 @@ public class LevelLoader : MonoBehaviour
 
     public GameObject player;
     private Colliders colliders;
+    PlayerMovement2 playerMovement2;
 
     private void Start()
     {
         colliders = player.GetComponent<Colliders>();
+        playerMovement2 = player.GetComponent<PlayerMovement2>();
     }
 
     void Update()
