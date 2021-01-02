@@ -42,15 +42,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: background-10
+  - name: Paper
     uniqueID: 3653135037
     locked: 0
-  - name: background
+  - name: backgroundObjects
     uniqueID: 3984074763
     locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: front
+  - name: player
     uniqueID: 2784895743
+    locked: 0
+  - name: frontOfPlayer
+    uniqueID: 445550547
+    locked: 0
+  - name: front+5
+    uniqueID: 679477617
     locked: 0

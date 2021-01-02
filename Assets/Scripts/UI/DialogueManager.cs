@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
+
+    public UnityEvent onEndDialogue;
 
     public Animator animator;
 
@@ -70,6 +73,6 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("IsOpen", false);
         playerMovement2.someoneIsTalking = false;
-        Debug.Log("is set to false");
+        onEndDialogue.Invoke();
     }
 }
