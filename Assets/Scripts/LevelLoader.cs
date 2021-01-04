@@ -40,11 +40,17 @@ public class LevelLoader : MonoBehaviour
     {
         // Play animation
         transition.SetTrigger("Start");
+        transition.SetBool("Event", false);
 
         // wait
         yield return new WaitForSeconds(transitionTime);
 
         // load scene
         SceneManager.LoadScene(levelIndex);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

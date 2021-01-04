@@ -13,10 +13,12 @@ public class PlayerMovement2 : MonoBehaviour
     float horizontalMove = 0f;
     bool jump = false;
     bool crouch = false;
+    Rigidbody2D rb;
 
     private void Start()
     {
         animator = gameObject.GetComponent<Animator>();
+        rb = gameObject.GetComponent<Rigidbody2D>();
     }
 
 
@@ -55,8 +57,11 @@ public class PlayerMovement2 : MonoBehaviour
     {
         if (someoneIsTalking == false)
         {
-            // move character
+            // move charactera
             controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
+        } else
+        {
+            rb.velocity = new Vector2(0, 0);
         }
             jump = false;
     }

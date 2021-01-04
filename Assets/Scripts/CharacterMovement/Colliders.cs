@@ -10,7 +10,6 @@ public class Colliders : MonoBehaviour
     {
         if (collision.tag == "Door")
         {
-            Debug.Log("player touches door");
             playerTouchesDoor = true;
         }
     }

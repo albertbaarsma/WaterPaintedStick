@@ -13,6 +13,8 @@ public class DialogueManager : MonoBehaviour
     public UnityEvent onEndDialogue;
 
     public Animator animator;
+    public Fadeout fadeout;
+
 
     // FIFO collection = First in first out
     // queue of type string
@@ -26,6 +28,14 @@ public class DialogueManager : MonoBehaviour
     {
         sentences = new Queue<string>();
         playerMovement2 = player.GetComponent<PlayerMovement2>();
+    }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Submit") || Input.GetButtonDown("Jump") == true && playerMovement2.someoneIsTalking == true)
+        {
+            DisplayNextSentence();
+        }
     }
 
     public void StartDialogue (Dialogue dialogue)
@@ -73,6 +83,17 @@ public class DialogueManager : MonoBehaviour
     {
         animator.SetBool("IsOpen", false);
         playerMovement2.someoneIsTalking = false;
+        fadeout.transition.SetBool("Event", false);
+        StartCoroutine(EventAfterFade());
+    }
+
+    IEnumerator EventAfterFade()
+    {
+        fadeout.transition.SetTrigger("Start");
+        fadeout.transition.SetBool("Event", false);
+
+        yield return new WaitForSeconds(1);
+        fadeout.transition.SetBool("Event", true);
         onEndDialogue.Invoke();
     }
 }

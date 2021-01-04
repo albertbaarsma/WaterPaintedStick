@@ -9,6 +9,10 @@ public class DialogueTrigger : MonoBehaviour
     public Fadeout fadeout;
     private PlayerMovement2 playerMovement;
 
+    public float teleportPosX = 1.57f;
+    public float teleportPosY = -2.16f;
+
+
     public void TriggerDialogue ()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
@@ -18,24 +22,21 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-
-            StartCoroutine(WaitBeforeShow(collision.gameObject));
+            playerMovement = collision.gameObject.GetComponent<PlayerMovement2>();
+            StartCoroutine(WaitBeforeShow());
         }
     }
 
-    IEnumerator WaitBeforeShow(GameObject player)
+    IEnumerator WaitBeforeShow()
     {
         fadeout.transition.SetTrigger("Start");
 
         yield return new WaitForSeconds(1);
         fadeout.transition.SetBool("Event", true);
-        // fadeout.transition.SetTrigger("Start");
         TriggerDialogue();
 
-        playerMovement = player.GetComponent<PlayerMovement2>();
-
         playerMovement.someoneIsTalking = true;
-        playerMovement.TeleportCharacter(1.57f, -2.16f);
+        playerMovement.TeleportCharacter(teleportPosX, teleportPosY);
 
         Destroy(gameObject);
 
