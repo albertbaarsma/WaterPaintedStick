@@ -35,6 +35,9 @@ public class DialogueTrigger : MonoBehaviour
         fadeout.transition.SetBool("Event", true);
         TriggerDialogue();
 
+        // cat sound -- should find better solution for this to make code more dynamic
+        FindObjectOfType<AudioManager>().Play("Cat");
+        
         playerMovement.someoneIsTalking = true;
         playerMovement.TeleportCharacter(teleportPosX, teleportPosY);
 

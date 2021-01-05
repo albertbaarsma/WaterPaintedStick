@@ -9,6 +9,7 @@ public class PlayerMovement2 : MonoBehaviour
 
     public float runSpeed = 40f;
     public bool someoneIsTalking = false;
+    public AudioManager audioManager;
 
     float horizontalMove = 0f;
     bool jump = false;
@@ -39,6 +40,7 @@ public class PlayerMovement2 : MonoBehaviour
 
             if (Input.GetButtonDown("Jump"))
             {
+                FindObjectOfType<AudioManager>().Play("Jump");
                 jump = true;
                 animator.SetBool("IsJumping", true);
             }
