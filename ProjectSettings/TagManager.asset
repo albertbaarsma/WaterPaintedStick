@@ -8,6 +8,8 @@ TagManager:
   - Door
   - LevelLoader
   - Event
+  - Pebble
+  - Rock
   layers:
   - Default
   - TransparentFX
