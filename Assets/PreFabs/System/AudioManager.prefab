@@ -44,9 +44,45 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
+  - name: FlyBmg
+    clip: {fileID: 8300000, guid: 69cec16f48e739c4c89897a8b824dbfc, type: 3}
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 1
   - name: Jump
     clip: {fileID: 8300000, guid: ac697abebbd895e4cb3631821dfd1ad0, type: 3}
-    volume: 1
-    pitch: 0
+    volume: 0.039
+    pitch: 0.6
     source: {fileID: 0}
     loop: 0
+    playOnAwake: 0
+  - name: Wind
+    clip: {fileID: 8300000, guid: 051d4d6152c06164981c748e0803e7bb, type: 3}
+    volume: 0.155
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 1
+    playOnAwake: 1
+  - name: Cat
+    clip: {fileID: 8300000, guid: 6d28bfc03e5f58448b023c09eeacb92f, type: 3}
+    volume: 0.155
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - name: Pebble
+    clip: {fileID: 8300000, guid: 832158ee293cf8d42874c80f7b1d140c, type: 3}
+    volume: 0.095
+    pitch: 0.6
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 0
+  - name: Rock
+    clip: {fileID: 8300000, guid: 832158ee293cf8d42874c80f7b1d140c, type: 3}
+    volume: 0.228
+    pitch: 0.19
+    source: {fileID: 0}
+    loop: 0
+    playOnAwake: 1
