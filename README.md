@@ -1,14 +1,14 @@
 # WaterPaintedStick
 Unity version 2019.4.16f1
 
-# introduction
+# Introduction
 Simple Unity platformer. All art is waterpainted. The story is about a stickman finding a goal for his life.
 
-# learning
+# Learning
 The aim of the project is to learn more about unity. I've only worked with Unity for a couple of months, and only programmed for about a year. This project's aim is to keep things simple. Simple often repeated becomes master. If the basics are mastered.. you can move on to more complicated stuff.
 This project is done by and create for beginners. Also in a gaming sence. It should be rather easy to play. 
 
-# target audience
+# Target audience
 Beginner players. All ages. Non violent, no monsters or other scary stuff. A little girl of 2 should be able to watch her daddy or mommy play this game and not get nightmares.
 
 # Scope
@@ -17,7 +17,7 @@ The scope of the project is about 4 months. So I will probably finish in April/M
 # Planned Sprints
 The planned sprints I want to do are:
 
-50% - waterpainted tree level
+- 50% - waterpainted tree level
 - moving plantforms
 - levers (small)
 - make spiral level
@@ -30,10 +30,10 @@ The planned sprints I want to do are:
 - credits
 - saving and loading
 - some polish
-? - upgrade rendering to add lighting
+- ? - upgrade rendering to add lighting
 
-? means that I might do it. 
-20% = someone (probably me) is working on it, now at that percentage.
+? - = that I don't know yet if I should do it.
+20% - = someone (probably me) is working on it, now at that percentage.
 
 Feel free to update this readme and track your process in this project as well.
 
