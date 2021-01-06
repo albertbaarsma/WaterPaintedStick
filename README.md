@@ -18,7 +18,7 @@ The scope of the project is about 4 months. So I will probably finish in April/M
 The planned sprints I want to do are:
 
 - 50% - waterpainted tree level
-- moving plantforms
+- 50% - moving plantforms
 - levers (small)
 - make spiral level
 - create first demo
