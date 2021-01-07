@@ -13,10 +13,20 @@ GameObject:
   - component: {fileID: 8237572923829961260}
   - component: {fileID: 8237572923829961263}
 <<<<<<< HEAD:Assets/PreFabs/Interactable objects/Spinning stone.prefab
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:Assets/PreFabs/Interactable objects/Spinning stone.prefab
+>>>>>>> parent of 5b44e11... finished lv design
   - component: {fileID: 8237572925552854591}
 =======
   - component: {fileID: 8506097383885008821}
 >>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
+<<<<<<< HEAD
+=======
+=======
+  - component: {fileID: 8506097383885008821}
+>>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
+>>>>>>> parent of 5b44e11... finished lv design
   m_Layer: 12
   m_Name: stone
   m_TagString: Untagged
@@ -32,6 +42,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8237572923829961266}
 <<<<<<< HEAD:Assets/PreFabs/Interactable objects/Spinning stone.prefab
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:Assets/PreFabs/Interactable objects/Spinning stone.prefab
+>>>>>>> parent of 5b44e11... finished lv design
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1.6614125, y: 1.2083, z: 1.2083}
@@ -40,6 +54,14 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
 >>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
+<<<<<<< HEAD
+=======
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+>>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
+>>>>>>> parent of 5b44e11... finished lv design
   m_Children: []
   m_Father: {fileID: 8237572925731558534}
   m_RootOrder: 1
@@ -173,6 +195,12 @@ PolygonCollider2D:
       - {x: 0.28177342, y: -0.1223509}
       - {x: 0.37088734, y: -0.120777205}
 --- !u!235 &8506097383885008821
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:Assets/PreFabs/Interactable objects/Spinning stone.prefab
+>>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
+=======
+>>>>>>> parent of 5b44e11... finished lv design
 >>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
 WheelJoint2D:
   m_ObjectHideFlags: 0
@@ -200,6 +228,12 @@ WheelJoint2D:
     m_MaximumMotorForce: 10000
 =======
     m_MaximumMotorForce: 100
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:Assets/PreFabs/Interactable objects/Spinning stone.prefab
+>>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
+=======
+>>>>>>> parent of 5b44e11... finished lv design
 >>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
 --- !u!1 &8237572924143832418
 GameObject:
@@ -227,10 +261,19 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8237572924143832418}
 <<<<<<< HEAD:Assets/PreFabs/Interactable objects/Spinning stone.prefab
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:Assets/PreFabs/Interactable objects/Spinning stone.prefab
+>>>>>>> parent of 5b44e11... finished lv design
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.01, y: -0.028, z: 0}
   m_LocalScale: {x: 0.039487466, y: 0.039487466, z: 0.039487466}
 =======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> parent of 5b44e11... finished lv design:Assets/PreFabs/objects/moving/Spinning stone.prefab
+>>>>>>> parent of 5b44e11... finished lv design
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.11758, y: 0.11758, z: 0.11758}
