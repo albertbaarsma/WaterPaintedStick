@@ -743,6 +743,7 @@ SpriteRenderer:
 --- !u!4 &418720699
 Transform:
   m_ObjectHideFlags: 0
+<<<<<<< HEAD
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -754,6 +755,89 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8237572925731558533, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_Name
+      value: Spinning stone
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4258313
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2007
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.2007
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.998439
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7642b46658cd09846a7f5fa59a8c0868, type: 3}
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
 --- !u!1 &448536275
 GameObject:
   m_ObjectHideFlags: 0
@@ -956,7 +1040,11 @@ Transform:
   m_LocalScale: {x: 0.38138974, y: 0.38138974, z: -16.661}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 13
+=======
+  m_RootOrder: 14
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.554}
 --- !u!4 &452783902 stripped
 Transform:
@@ -1067,7 +1155,11 @@ Transform:
   - {fileID: 363525541}
   - {fileID: 490942842}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 11
+=======
+  m_RootOrder: 13
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1185,7 +1277,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 15
+=======
+  m_RootOrder: 16
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &633370444 stripped
 Animator:
@@ -1336,7 +1432,11 @@ PrefabInstance:
     - target: {fileID: 2298639363102849930, guid: 6e027f914eb8d1c46b4e2d3bc7a63b95,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 3
+=======
+      value: 4
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 2298639363102849930, guid: 6e027f914eb8d1c46b4e2d3bc7a63b95,
         type: 3}
@@ -2134,6 +2234,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.1433959, y: 1}
   m_EdgeRadius: 0
+<<<<<<< HEAD
 --- !u!1001 &1326415739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2234,6 +2335,8 @@ Transform:
   m_Father: {fileID: 1573070501}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
 --- !u!1 &1448355177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,7 +2366,11 @@ Transform:
   m_Children:
   - {fileID: 313100809}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 14
+=======
+  m_RootOrder: 15
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1487564425
 PrefabInstance:
@@ -2360,7 +2467,11 @@ PrefabInstance:
     - target: {fileID: 5543144214373632394, guid: 43761523dfde69b4d9bf2ef4935746b5,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 7
+=======
+      value: 8
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 5543144214373632394, guid: 43761523dfde69b4d9bf2ef4935746b5,
         type: 3}
@@ -2523,7 +2634,11 @@ Transform:
   - {fileID: 1446806823}
   - {fileID: 145653292}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 10
+=======
+  m_RootOrder: 11
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1573157398
 PrefabInstance:
@@ -2545,7 +2660,11 @@ PrefabInstance:
     - target: {fileID: 467511726531113997, guid: c3603ae375a8e1543bbcc4fdbeeedc57,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 6
+=======
+      value: 7
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 467511726531113997, guid: c3603ae375a8e1543bbcc4fdbeeedc57,
         type: 3}
@@ -2766,7 +2885,11 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 9
+=======
+  m_RootOrder: 10
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1688592882 stripped
 GameObject:
@@ -2799,7 +2922,11 @@ PrefabInstance:
     - target: {fileID: 2298639363102849930, guid: 6e027f914eb8d1c46b4e2d3bc7a63b95,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 2
+=======
+      value: 3
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 2298639363102849930, guid: 6e027f914eb8d1c46b4e2d3bc7a63b95,
         type: 3}
@@ -2888,7 +3015,11 @@ PrefabInstance:
     - target: {fileID: 2584035346381366462, guid: bf4a4bd6865d543468e443b517f4332d,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 8
+=======
+      value: 9
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 2584035346381366462, guid: bf4a4bd6865d543468e443b517f4332d,
         type: 3}
@@ -3145,7 +3276,11 @@ PrefabInstance:
     - target: {fileID: 1993250586938049669, guid: d8c4bf18c341bc04eabceaa375836014,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 5
+=======
+      value: 6
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 1993250586938049669, guid: d8c4bf18c341bc04eabceaa375836014,
         type: 3}
@@ -3219,7 +3354,11 @@ PrefabInstance:
     - target: {fileID: 3324921119332433731, guid: 407bc085c2c333b4bb1d4567463e04de,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 4
+=======
+      value: 5
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 3324921119332433731, guid: 407bc085c2c333b4bb1d4567463e04de,
         type: 3}
@@ -3308,7 +3447,11 @@ Transform:
   - {fileID: 448536276}
   - {fileID: 181264183}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
   m_RootOrder: 17
+=======
+  m_RootOrder: 12
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &276642274196501681
 PrefabInstance:
@@ -3340,7 +3483,11 @@ PrefabInstance:
     - target: {fileID: 276642273140087339, guid: 9b10a7ac9e3085f46bc1071090bbb1a7,
         type: 3}
       propertyPath: m_RootOrder
+<<<<<<< HEAD
       value: 16
+=======
+      value: 17
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 276642273140087339, guid: 9b10a7ac9e3085f46bc1071090bbb1a7,
         type: 3}
@@ -3425,12 +3572,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1573070501}
     m_Modifications:
+<<<<<<< HEAD
     - target: {fileID: 8237572925731558533, guid: 7642b46658cd09846a7f5fa59a8c0868,
         type: 3}
       propertyPath: m_Name
       value: Spinning stone
       objectReference: {fileID: 0}
     - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
+=======
+    - target: {fileID: 438301594576568809, guid: b1e54ee71b8052e4ba484fde7a4ace6b,
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
         type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -3438,12 +3589,20 @@ PrefabInstance:
     - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
         type: 3}
       propertyPath: m_LocalPosition.x
+<<<<<<< HEAD
       value: -282.99
+=======
+      value: -292.82
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
         type: 3}
       propertyPath: m_LocalPosition.y
+<<<<<<< HEAD
       value: -226.19
+=======
+      value: -232.93
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
       objectReference: {fileID: 0}
     - target: {fileID: 8237572925731558534, guid: 7642b46658cd09846a7f5fa59a8c0868,
         type: 3}
@@ -3485,5 +3644,39 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< HEAD
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7642b46658cd09846a7f5fa59a8c0868, type: 3}
+=======
+    - target: {fileID: 438301594576568810, guid: b1e54ee71b8052e4ba484fde7a4ace6b,
+        type: 3}
+      propertyPath: m_Name
+      value: Spinning Xstone (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b1e54ee71b8052e4ba484fde7a4ace6b, type: 3}
+--- !u!1 &2584035344654554414 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2584035346381366468, guid: bf4a4bd6865d543468e443b517f4332d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1764569578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2584035344654554415 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2868391164431802221, guid: bf4a4bd6865d543468e443b517f4332d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1764569578}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2584035344654554414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4df252639d51ef543a0d2effec39dece, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2584035344654554418 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2584035346381366462, guid: bf4a4bd6865d543468e443b517f4332d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1764569578}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree

@@ -3528,6 +3528,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!1001 &1320326627
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3597,6 +3598,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffbfd1e6ada3a6245b9c40cb74c80b5b, type: 3}
+=======
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
 --- !u!1 &1324568447
 GameObject:
   m_ObjectHideFlags: 0

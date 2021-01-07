@@ -32,7 +32,11 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
+<<<<<<< HEAD
         if (playerMovement2.someoneIsTalking == true)
+=======
+        if (playerMovement2.someoneIsTalking)
+>>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
         {
             if (Input.GetButtonDown("Submit") || Input.GetButtonDown("Jump") == true)
             {
