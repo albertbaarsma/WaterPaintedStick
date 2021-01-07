@@ -32,11 +32,7 @@ public class DialogueManager : MonoBehaviour
 
     private void Update()
     {
-<<<<<<< HEAD
-        if (playerMovement2.someoneIsTalking)
-=======
         if (playerMovement2.someoneIsTalking == true)
->>>>>>> main
         {
             if (Input.GetButtonDown("Submit") || Input.GetButtonDown("Jump") == true)
             {
