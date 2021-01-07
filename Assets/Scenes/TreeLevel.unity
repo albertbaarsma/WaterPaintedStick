@@ -445,6 +445,9 @@ GameObject:
   m_Name: big tree branch lower collider
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5b44e11... finished lv design
+=======
 >>>>>>> parent of 5b44e11... finished lv design
 =======
 >>>>>>> parent of 5b44e11... finished lv design
@@ -544,6 +547,7 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &150627809
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +581,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &452718122
 =======
+=======
+>>>>>>> parent of 5b44e11... finished lv design
 =======
 >>>>>>> parent of 5b44e11... finished lv design
 =======
@@ -1974,9 +1980,15 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.23, y: -13.266886, z: 0}
   m_LocalScale: {x: 2.3041475, y: 0.67328984, z: 0.59847987}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.6, y: -21.71, z: 0}
+  m_LocalScale: {x: 3.85, y: 1.125, z: 1}
+>>>>>>> parent of 5b44e11... finished lv design
 =======
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.6, y: -21.71, z: 0}
@@ -2365,10 +2377,13 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1835270237}
   - {fileID: 150627810}
   - {fileID: 1837443488}
 =======
+=======
+>>>>>>> parent of 5b44e11... finished lv design
 =======
 >>>>>>> parent of 5b44e11... finished lv design
 =======
@@ -2382,6 +2397,9 @@ Transform:
   - {fileID: 1883713857}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5b44e11... finished lv design
+=======
 >>>>>>> parent of 5b44e11... finished lv design
 =======
 >>>>>>> parent of 5b44e11... finished lv design
@@ -2400,8 +2418,41 @@ Transform:
 GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
+=======
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1448355178}
+  m_Layer: 0
+  m_Name: In front of Player background objects\
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1448355178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448355177}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 12.69, y: -1.85, z: -4.0625}
+  m_LocalScale: {x: 1.2527071, y: 1.2527071, z: 1.2527071}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1487564425
+PrefabInstance:
+>>>>>>> parent of 5b44e11... finished lv design
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -3352,7 +3403,11 @@ GameObject:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Name: Bottom2
+=======
+  m_Name: big tree branch mid collider
+>>>>>>> parent of 5b44e11... finished lv design
 =======
   m_Name: big tree branch mid collider
 >>>>>>> parent of 5b44e11... finished lv design
@@ -3456,6 +3511,7 @@ Animator:
     type: 3}
   m_PrefabInstance: {fileID: 1487564425}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -4987,11 +5043,18 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &276642274196501681
+=======
+--- !u!1001 &1863517353
+>>>>>>> parent of 5b44e11... finished lv design
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< HEAD
     m_TransformParent: {fileID: 0}
+=======
+    m_TransformParent: {fileID: 1334152225}
+>>>>>>> parent of 5b44e11... finished lv design
     m_Modifications:
     - target: {fileID: 276642273140087336, guid: 9b10a7ac9e3085f46bc1071090bbb1a7,
         type: 3}
@@ -5018,6 +5081,9 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.y
       value: 0
+<<<<<<< HEAD
+>>>>>>> parent of 5b44e11... finished lv design
+=======
 >>>>>>> parent of 5b44e11... finished lv design
       objectReference: {fileID: 0}
     - target: {fileID: 276642273140087337, guid: 9b10a7ac9e3085f46bc1071090bbb1a7,
@@ -5028,6 +5094,9 @@ PrefabInstance:
 =======
       propertyPath: m_LocalRotation.z
       value: 0
+<<<<<<< HEAD
+>>>>>>> parent of 5b44e11... finished lv design
+=======
 >>>>>>> parent of 5b44e11... finished lv design
       objectReference: {fileID: 0}
 <<<<<<< HEAD
@@ -5173,6 +5242,9 @@ PrefabInstance:
       value: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5b44e11... finished lv design
+=======
 >>>>>>> parent of 5b44e11... finished lv design
 =======
 >>>>>>> parent of 5b44e11... finished lv design
@@ -5185,7 +5257,11 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -5.49
+=======
+      value: 6.503254
+>>>>>>> parent of 5b44e11... finished lv design
 =======
       value: 6.503254
 >>>>>>> parent of 5b44e11... finished lv design
@@ -5202,7 +5278,11 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -19.46
+=======
+      value: 8.1
+>>>>>>> parent of 5b44e11... finished lv design
 =======
       value: 8.1
 >>>>>>> parent of 5b44e11... finished lv design
@@ -5319,6 +5399,9 @@ GameObject:
   m_Name: big tree branch lower collider
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> parent of 5b44e11... finished lv design
+=======
 >>>>>>> parent of 5b44e11... finished lv design
 =======
 >>>>>>> parent of 5b44e11... finished lv design
@@ -5467,7 +5550,11 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     m_TransformParent: {fileID: 1573070501}
+=======
+    m_TransformParent: {fileID: 1334152225}
+>>>>>>> parent of 5b44e11... finished lv design
 =======
     m_TransformParent: {fileID: 1334152225}
 >>>>>>> parent of 5b44e11... finished lv design
@@ -5648,7 +5735,11 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 4
+=======
+      value: 6
+>>>>>>> parent of 5b44e11... finished lv design
 =======
       value: 6
 >>>>>>> parent of 5b44e11... finished lv design
@@ -5915,8 +6006,11 @@ Transform:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 15
 =======
+=======
+>>>>>>> parent of 5b44e11... finished lv design
 =======
 >>>>>>> parent of 5b44e11... finished lv design
 =======
@@ -5989,6 +6083,7 @@ PrefabInstance:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 12
 =======
     - target: {fileID: 276642273140087339, guid: 9b10a7ac9e3085f46bc1071090bbb1a7,
@@ -5996,6 +6091,9 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 10
 >>>>>>> parent of 731915e... Merge branch 'main' into WPS-11-tree
+=======
+      value: 15
+>>>>>>> parent of 5b44e11... finished lv design
 =======
       value: 15
 >>>>>>> parent of 5b44e11... finished lv design
