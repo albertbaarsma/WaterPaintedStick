@@ -38,19 +38,15 @@ public class MoveOnTouch : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Debug.Log(transform.position.x);
-        Debug.Log(returnPos.x);
         if (true)
         {
             if (transform.position.x >= returnPos.x && transform.position.y >= returnPos.y)
             {
                 goBack = true;
-                Debug.Log("go back is set to true");
             }
             if (transform.position.x <= startingPos.x && transform.position.y <= startingPos.y)
             {
                 goBack = false;
-                Debug.Log("go back is set to false");
             }
 
             if (goBack == true)
