@@ -6,7 +6,6 @@ public class StickToMovingObject : MonoBehaviour
 {
     public Vector3 velocity;
 
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")

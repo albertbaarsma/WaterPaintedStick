@@ -6,7 +6,6 @@ public class KeepPlayerUpright : MonoBehaviour
 {
     void FixedUpdate()
     {
-        Debug.Log(transform.rotation);
         transform.rotation = Quaternion.Euler(0, 0, 0);
     }
 }
