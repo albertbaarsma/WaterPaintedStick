@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1517533865012384348}
   - component: {fileID: 1517533865012384323}
   - component: {fileID: 1517533865012384322}
+  - component: {fileID: 2915738821550974252}
   m_Layer: 0
   m_Name: small stone (1)
   m_TagString: Pebble
@@ -142,3 +143,35 @@ PolygonCollider2D:
       - {x: 0.039008424, y: 0.043570343}
       - {x: 0.015676944, y: 0.046238318}
       - {x: -0.0036424175, y: 0.05702685}
+--- !u!114 &2915738821550974252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1517533865012384321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: bd6abed90b2878ed00000000ff22fea5d38f8e1a71018028
+  m_ShapePath:
+  - {x: -0.058746338, y: -0.021255493, z: 0.000011399388}
+  - {x: -0.04168701, y: -0.027175903, z: 0.000011399388}
+  - {x: -0.00982666, y: -0.048721313, z: 0.000011399388}
+  - {x: 0.037017822, y: -0.044036865, z: 0.000011399388}
+  - {x: 0.068115234, y: -0.036254883, z: 0.000011399388}
+  - {x: 0.07449341, y: 0.003753662, z: 0.000011399388}
+  - {x: 0.055023193, y: 0.03062439, z: 0.000011399388}
+  - {x: 0.021087646, y: 0.04685974, z: 0.000011399388}
+  - {x: -0.0061035156, y: 0.05809021, z: 0.000011399388}
+  - {x: -0.0597229, y: 0.035324097, z: 0.000011399388}
+  m_ShapePathHash: 1302574189
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -23514

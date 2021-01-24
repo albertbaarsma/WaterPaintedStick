@@ -9,16 +9,13 @@ public class DialogueTrigger : MonoBehaviour
     public Fadeout fadeout;
     private PlayerMovement2 playerMovement;
 
-    public float teleportPosX = 1.57f;
-    public float teleportPosY = -2.16f;
-
 
     public void TriggerDialogue ()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -39,7 +36,7 @@ public class DialogueTrigger : MonoBehaviour
         FindObjectOfType<AudioManager>().Play("Cat");
         
         playerMovement.someoneIsTalking = true;
-        playerMovement.TeleportCharacter(teleportPosX, teleportPosY);
+        playerMovement.TeleportCharacter(gameObject.transform.position.x, gameObject.transform.position.y);
 
         Destroy(gameObject);
 
