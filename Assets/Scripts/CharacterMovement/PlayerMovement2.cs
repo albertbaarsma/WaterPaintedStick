@@ -80,6 +80,17 @@ public class PlayerMovement2 : MonoBehaviour
 
     public void TeleportCharacter(float teleportPosX, float teleportPosY)
     {
-        gameObject.transform.position = new Vector3(teleportPosX, teleportPosY, teleportPosX);
+        gameObject.transform.position = new Vector3(teleportPosX, teleportPosY, 0);
+    }
+
+    public void TeleportCharacterX(float teleportPosX)
+    {
+        gameObject.transform.position = new Vector3(teleportPosX, gameObject.transform.position.y, 0);
+    }
+
+    public void TeleportCharacterY(float teleportPosY)
+    {
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x, teleportPosY, 0);
     }
 }
+

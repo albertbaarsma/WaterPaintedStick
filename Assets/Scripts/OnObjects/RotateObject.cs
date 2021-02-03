@@ -10,4 +10,9 @@ public class RotateObject : MonoBehaviour
     {
         transform.Rotate(0, 0, Time.deltaTime * rotationSpeed, Space.Self);
     }
+
+    public void SetRotateZ(int rotationZ)
+    {
+        transform.rotation = Quaternion.Euler(0, 0, rotationZ);
+    }
 }

@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1517533865012384323}
   - component: {fileID: 1517533865012384322}
   - component: {fileID: 2915738821550974252}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: small stone (1)
   m_TagString: Pebble
   m_Icon: {fileID: 0}
@@ -174,4 +174,4 @@ MonoBehaviour:
   - {x: -0.0597229, y: 0.035324097, z: 0.000011399388}
   m_ShapePathHash: 1302574189
   m_Mesh: {fileID: 0}
-  m_InstanceId: -23514
+  m_InstanceId: 109656
