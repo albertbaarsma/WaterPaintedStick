@@ -21,14 +21,14 @@ MonoBehaviour:
   - enabled: 0
     name: Default
     maskTextureChannel: 0
-    renderTextureScale: 0.15
+    renderTextureScale: 0.91
     blendMode: 1
     customBlendFactors:
       multiplicative: 0
       additive: 0
   - enabled: 0
-    name: Blend Style 1
-    maskTextureChannel: 0
+    name: Additive
+    maskTextureChannel: 1
     renderTextureScale: 0.43
     blendMode: 0
     customBlendFactors:
