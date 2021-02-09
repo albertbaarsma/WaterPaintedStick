@@ -41,6 +41,12 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
     }
 
+    public void LoadLevelByIndex(int levelIndex)
+    {
+        Time.timeScale = 1f;
+        StartCoroutine(LoadLevel(levelIndex));
+    }
+
     public void ReloadLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex));

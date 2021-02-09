@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Follow me up.unity
     guid: bf01ce66f3fa6eb48b9d283dd347518c
   - enabled: 1
-    path: Assets/Scenes/Scene C.unity
-    guid: e811531c4af435044b12587751007e3f
-  - enabled: 1
     path: Assets/Scenes/FirstPaintedLevel 1.unity
     guid: d4740089908098c4d8ece20e3287fd32
   - enabled: 1
@@ -26,7 +23,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Spiral Level.unity
     guid: a2208d3cc56e975498fcaed60f370aaa
-  - enabled: 1
-    path: Assets/Scenes/Scene D.unity
-    guid: 7eb05f80ddf98ac4c8aa1c85f01f5dbb
   m_configObjects: {}
