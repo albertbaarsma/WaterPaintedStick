@@ -10,6 +10,7 @@ public class DialogueManager : MonoBehaviour
     public TextMeshProUGUI nameText;
     public TextMeshProUGUI dialogueText;
 
+    public UnityEvent onStartDialogue;
     public UnityEvent onEndDialogue;
 
     public Animator animator;
@@ -43,12 +44,14 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue (Dialogue dialogue)
     {
+        onStartDialogue.Invoke();
+
         playerMovement2.someoneIsTalking = true;
         animator.SetBool("IsOpen", true);
 
         nameText.text = dialogue.name;
 
-        sentences.Clear();
+    sentences.Clear();
 
         foreach (string sentence in dialogue.sentences)
         {

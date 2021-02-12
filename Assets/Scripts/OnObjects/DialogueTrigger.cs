@@ -9,7 +9,6 @@ public class DialogueTrigger : MonoBehaviour
     public Fadeout fadeout;
     private PlayerMovement2 playerMovement;
 
-
     public void TriggerDialogue ()
     {
         FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
