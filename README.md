@@ -6,15 +6,14 @@ The aim of the project is to learn more about unity. Maybe learn about how to co
 This platformer aims to be a story driven, psychologial platformer.
 
 Update! demo out!
-As of february This demo took me about 2,5 months/ 100 hours to make. 
-
-The art, programming, bg-music, story and lv design were all done by me. 
+find it on https://shinydev.itch.io/inward-demo . 
+As of february 13th, This demo took me about 2,5 months/ 100 hours to make. 
 
 ## Future plans:
 
 Next: create a "making of" video 
 
-1. Collect feedback. Depending on it I will either
+And: Collect feedback. Depending on it I will either
 - focus on creating more levels
 - or improve gameplay (allot)
 - might make slow motion effect and 'focus collectables'
@@ -27,6 +26,8 @@ Next: create a "making of" video
 4. The mountain of destiny
 
 I will probably change the order as well
+
+# Contact
 
 If you want to contribute let me know!
 
